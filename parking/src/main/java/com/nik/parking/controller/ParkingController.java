@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.nik.parking.model.ParkingLot;
 import com.nik.parking.model.Vehicle;
+import com.nik.parking.service.ParkingLot;
 
 @RestController
 @RequestMapping("/parking")

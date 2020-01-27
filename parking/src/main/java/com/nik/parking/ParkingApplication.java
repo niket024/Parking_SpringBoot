@@ -10,8 +10,8 @@ import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.event.EventListener;
 
 import com.nik.parking.model.Level;
-import com.nik.parking.model.ParkingLot;
 import com.nik.parking.model.Spot;
+import com.nik.parking.service.ParkingLot;
 
 @SpringBootApplication
 public class ParkingApplication {
